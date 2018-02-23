@@ -73,4 +73,14 @@ with_fx :reverb do
     end
     b=(b+75)
   end
+  live_loop :baaap do
+    sample :bd_808, rate: 1, amp: 4
+    sleep 1
+    sample :elec_hi_snare, amp: 1
+    sleep 1
+    sample :bd_808, rate: 1, amp: 4
+    sleep 1
+    sample :elec_hi_snare, amp: 1
+    sleep 1
+  end
 end
