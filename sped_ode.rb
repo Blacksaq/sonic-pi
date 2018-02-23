@@ -71,7 +71,6 @@ with_fx :reverb do
       play :c4, sustain: 1
       sleep 1.5
     end
-    b=(b+75)
   end
   live_loop :baaap do
     sample :bd_808, rate: 1, amp: 4
