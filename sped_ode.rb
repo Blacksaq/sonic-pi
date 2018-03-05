@@ -36,7 +36,7 @@ with_fx :reverb do
       play :d4, sustain: 1
       sleep 0.5
       play :d4, sustain: 1.5
-      sleep 1.5
+      sleep 2
     end
     
     1.times do
@@ -69,7 +69,7 @@ with_fx :reverb do
       play :c4, sustain: 1
       sleep 0.5
       play :c4, sustain: 1
-      sleep 1.5
+      sleep 2
     end
   end
   live_loop :baaap do
