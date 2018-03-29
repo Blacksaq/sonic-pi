@@ -7,13 +7,15 @@ act3="~/Desktop/Donk Shirt/Donk Shirt/Kicks Donk.wav"
 act4="~/Desktop/Donk Shirt/Donk Shirt/Clap Donk.wav"
 act5="~/Desktop/Donk Shirt/Donk Shirt/DONK FX.wav"
 act6="~/Desktop/Donk Shirt/Donk Shirt/DONK Brass 150.wav"
-
+#this paramerterized function basically replaces the sleeps in my code, it was mostly done to show understanding of the concept
 define :gloke do |v|
   sleep v
 end
-
+#this is a varialble being used to give a value of 11 to anything given the value of z in my code
 z=11
+#this is a array vbeing used to change the amp of the song every time it is played.
 bamp = [9, 10, 11, 11.5, 11.05, 12]
+#this is a function that will perform the specific action specified inside of it.
 define :sharb do
   1.times do
     
